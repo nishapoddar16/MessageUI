@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4C354FD9C67584067B2EDA /* Pods_MailCheckUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF7C2672BB033BD37C93771 /* Pods_MailCheckUITests.framework */; };
+		5D458F6420389D6E9E0B9C6A /* Pods_MailCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BC1C16DE1FC54EEEA67F21 /* Pods_MailCheck.framework */; };
 		C0F9786D21F5C3AE00C681FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9786C21F5C3AE00C681FF /* AppDelegate.swift */; };
 		C0F9786F21F5C3AE00C681FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9786E21F5C3AE00C681FF /* ViewController.swift */; };
 		C0F9787221F5C3AE00C681FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F9787021F5C3AE00C681FF /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		C0F9787721F5C3AF00C681FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F9787521F5C3AF00C681FF /* LaunchScreen.storyboard */; };
 		C0F9788221F5C3AF00C681FF /* MailCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9788121F5C3AF00C681FF /* MailCheckTests.swift */; };
 		C0F9788D21F5C3AF00C681FF /* MailCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9788C21F5C3AF00C681FF /* MailCheckUITests.swift */; };
+		D6F86BE53BF6B1FBA36FB4CD /* Pods_MailCheckTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19233BA0B8245D04AF80610 /* Pods_MailCheckTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E61F0F2C4BFD38AB7DB2D8 /* Pods-MailCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCheck.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailCheck/Pods-MailCheck.release.xcconfig"; sourceTree = "<group>"; };
+		079D9F24A0B3C33AF35B0236 /* Pods-MailCheckTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCheckTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailCheckTests/Pods-MailCheckTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F4831C854D446341D507E66 /* Pods-MailCheckUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCheckUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailCheckUITests/Pods-MailCheckUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3132D7C409A469590AF7AC2F /* Pods-MailCheckTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCheckTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailCheckTests/Pods-MailCheckTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A401FC0FF434C2ED1A87F4F /* Pods-MailCheckUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCheckUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailCheckUITests/Pods-MailCheckUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82BC1C16DE1FC54EEEA67F21 /* Pods_MailCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A01B43227FE9F1E3D0D0ED /* Pods-MailCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCheck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailCheck/Pods-MailCheck.debug.xcconfig"; sourceTree = "<group>"; };
 		C0F9786921F5C3AE00C681FF /* MailCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F9786C21F5C3AE00C681FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0F9786E21F5C3AE00C681FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		C0F9788821F5C3AF00C681FF /* MailCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F9788C21F5C3AF00C681FF /* MailCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCheckUITests.swift; sourceTree = "<group>"; };
 		C0F9788E21F5C3AF00C681FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19233BA0B8245D04AF80610 /* Pods_MailCheckTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailCheckTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF7C2672BB033BD37C93771 /* Pods_MailCheckUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailCheckUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D458F6420389D6E9E0B9C6A /* Pods_MailCheck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F86BE53BF6B1FBA36FB4CD /* Pods_MailCheckTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4C354FD9C67584067B2EDA /* Pods_MailCheckUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		191F45A28642E440E9840234 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6A01B43227FE9F1E3D0D0ED /* Pods-MailCheck.debug.xcconfig */,
+				01E61F0F2C4BFD38AB7DB2D8 /* Pods-MailCheck.release.xcconfig */,
+				3132D7C409A469590AF7AC2F /* Pods-MailCheckTests.debug.xcconfig */,
+				079D9F24A0B3C33AF35B0236 /* Pods-MailCheckTests.release.xcconfig */,
+				0F4831C854D446341D507E66 /* Pods-MailCheckUITests.debug.xcconfig */,
+				5A401FC0FF434C2ED1A87F4F /* Pods-MailCheckUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26A418DDB42860C43371C578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82BC1C16DE1FC54EEEA67F21 /* Pods_MailCheck.framework */,
+				C19233BA0B8245D04AF80610 /* Pods_MailCheckTests.framework */,
+				CAF7C2672BB033BD37C93771 /* Pods_MailCheckUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0F9786021F5C3AE00C681FF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				C0F9788021F5C3AF00C681FF /* MailCheckTests */,
 				C0F9788B21F5C3AF00C681FF /* MailCheckUITests */,
 				C0F9786A21F5C3AE00C681FF /* Products */,
+				191F45A28642E440E9840234 /* Pods */,
+				26A418DDB42860C43371C578 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0F9789121F5C3AF00C681FF /* Build configuration list for PBXNativeTarget "MailCheck" */;
 			buildPhases = (
+				2E9D083ED54E22A9002A0E68 /* [CP] Check Pods Manifest.lock */,
 				C0F9786521F5C3AE00C681FF /* Sources */,
 				C0F9786621F5C3AE00C681FF /* Frameworks */,
 				C0F9786721F5C3AE00C681FF /* Resources */,
+				B572BF0249A8110DF9EAE9A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0F9789421F5C3AF00C681FF /* Build configuration list for PBXNativeTarget "MailCheckTests" */;
 			buildPhases = (
+				8B66E1FDF38FBD8324FED0ED /* [CP] Check Pods Manifest.lock */,
 				C0F9787921F5C3AF00C681FF /* Sources */,
 				C0F9787A21F5C3AF00C681FF /* Frameworks */,
 				C0F9787B21F5C3AF00C681FF /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0F9789721F5C3AF00C681FF /* Build configuration list for PBXNativeTarget "MailCheckUITests" */;
 			buildPhases = (
+				01C9803596A150F6AB259B16 /* [CP] Check Pods Manifest.lock */,
 				C0F9788421F5C3AF00C681FF /* Sources */,
 				C0F9788521F5C3AF00C681FF /* Frameworks */,
 				C0F9788621F5C3AF00C681FF /* Resources */,
@@ -250,6 +294,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C9803596A150F6AB259B16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MailCheckUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E9D083ED54E22A9002A0E68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MailCheck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B66E1FDF38FBD8324FED0ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MailCheckTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B572BF0249A8110DF9EAE9A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MailCheck/Pods-MailCheck-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailCheck/Pods-MailCheck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0F9786521F5C3AE00C681FF /* Sources */ = {
@@ -430,6 +565,7 @@
 		};
 		C0F9789221F5C3AF00C681FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A01B43227FE9F1E3D0D0ED /* Pods-MailCheck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +584,7 @@
 		};
 		C0F9789321F5C3AF00C681FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E61F0F2C4BFD38AB7DB2D8 /* Pods-MailCheck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +603,7 @@
 		};
 		C0F9789521F5C3AF00C681FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3132D7C409A469590AF7AC2F /* Pods-MailCheckTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +625,7 @@
 		};
 		C0F9789621F5C3AF00C681FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079D9F24A0B3C33AF35B0236 /* Pods-MailCheckTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +647,7 @@
 		};
 		C0F9789821F5C3AF00C681FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4831C854D446341D507E66 /* Pods-MailCheckUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +668,7 @@
 		};
 		C0F9789921F5C3AF00C681FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A401FC0FF434C2ED1A87F4F /* Pods-MailCheckUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

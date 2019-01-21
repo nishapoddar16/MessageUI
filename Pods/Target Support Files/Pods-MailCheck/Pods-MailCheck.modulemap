@@ -1,0 +1,6 @@
+framework module Pods_MailCheck {
+  umbrella header "Pods-MailCheck-umbrella.h"
+
+  export *
+  module * { export * }
+}
